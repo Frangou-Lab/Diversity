@@ -3,7 +3,7 @@ Diversity
 
 Building
 --------
-The application requires Clang 3.5 and later. Any other C++14 supporting compiler will do as well, but
+The application requires Clang 3.5 or later. Any other C++14 supporting compiler will do as well, but
 you will need to adjust 'source/Makefile'.
 
     make
