@@ -1,7 +1,7 @@
 Diversity
 =========
 
-## Acknowledments
+## Acknowledgements
 * Gus Frangou
 * [Roswell Park Cancer Institute](https://www.roswellpark.org/)
 * Denis Musatov, [Axmor Software – America, Inc.](https://axmor.com/)
