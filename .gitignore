@@ -1,0 +1,6 @@
+.DS_Store
+a.out
+a.out.dSYM
+*.o
+*.zip
+diversity
