@@ -1,5 +1,25 @@
 Diversity
 =========
+Diversity indices calculator for comma- or tab-separated tables. The list of applied measures:
+> Simpsons index (and its recoprocal, approximation)  
+> Dominance index (and its approximation)  
+> Shannon index (log, log2, log10)  
+> Menhnick index  
+> Buzas-Gibson's index  
+> Equitability index  
+> Alternate reciprocal Simpsons  
+> Berger-Parker dominance  
+> Margalef's richness index  
+> Rényi entropy  
+> Gini coefficient
+
+Usage
+-----
+    ./diversity --by-rows input_table.csv
+
+    ./diversity --by-columns input_table.csv
+
+    ./diversity --by-rows --by-columns input_table.csv
 
 Building
 --------
