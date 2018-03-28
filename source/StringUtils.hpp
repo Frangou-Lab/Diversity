@@ -3,7 +3,7 @@
 //  libgene
 //
 //  Created by Denis Musatov on 11/10/17.
-//  Copyright 2018 Frangou Lab. All rights reserved.
+//  Copyright 2018 Frangou Lab.
 //
 
 

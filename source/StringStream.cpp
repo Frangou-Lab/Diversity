@@ -3,7 +3,7 @@
 //  geneutils
 //
 //  Created by Denis Musatov on 02/11/16.
-//  Copyright 2018 Frangou Lab. All rights reserved.
+//  Copyright 2018 Frangou Lab.
 //
 
 #include "StringStream.hpp"
