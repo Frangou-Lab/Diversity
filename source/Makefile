@@ -1,24 +1,22 @@
-CPPC=clang++
-CPPOPT=-std=c++14 -O3 -Wall
-# CPPOPT_DEBUG=${CPPOPT} -g
+# CXXFLAGS_DEBUG=$(CXXFLAGS) -g
 
 diversity: main.o Splitter.o PlainStringInputStream.o StringInputStream.o StringOutputStream.o StringStream.o StringUtils.o
-	${CPPC} ${CPPOPT} -flto -o ../diversity main.o Splitter.o PlainStringInputStream.o StringInputStream.o StringOutputStream.o StringStream.o StringUtils.o
+	$(CXX) $(CXXFLAGS) -o ../diversity main.o Splitter.o PlainStringInputStream.o StringInputStream.o StringOutputStream.o StringStream.o StringUtils.o
 
-main.o: main.cpp stats.h
-	${CPPC} ${CPPOPT} -c main.cpp
+main.o: main.cpp
+	$(CXX) $(CXXFLAGS) -c main.cpp
 PlainStringInputStream.o:
-	${CPPC} ${CPPOPT} -c PlainStringInputStream.cpp
+	$(CXX) $(CXXFLAGS) -c PlainStringInputStream.cpp
 Splitter.o:
-	${CPPC} ${CPPOPT} -c Splitter.cpp
+	$(CXX) $(CXXFLAGS) -c Splitter.cpp
 StringInputStream.o:
-	${CPPC} ${CPPOPT} -c StringInputStream.cpp
+	$(CXX) $(CXXFLAGS) -c StringInputStream.cpp
 StringOutputStream.o:
-	${CPPC} ${CPPOPT} -c StringOutputStream.cpp
+	$(CXX) $(CXXFLAGS) -c StringOutputStream.cpp
 StringStream.o:
-	${CPPC} ${CPPOPT} -c StringStream.cpp
+	$(CXX) $(CXXFLAGS) -c StringStream.cpp
 StringUtils.o:
-	${CPPC} ${CPPOPT} -c StringUtils.cpp
+	$(CXX) $(CXXFLAGS) -c StringUtils.cpp
 
 clean:
 	rm ../diversity main.o Splitter.o PlainStringInputStream.o StringInputStream.o StringOutputStream.o StringStream.o StringUtils.o

@@ -1,6 +1,5 @@
-CPPC=clang++
-CPPOPT=-std=c++14 -O3 -flto -Wall
-# CPPOPT_DEBUG=${CPPOPT} -g
+export CXXFLAGS := -std=c++14 -O3 -flto -Wall
+# CXXFALGS_DEBUG=${CXXFLAGS} -g
 
 all:
 	$(MAKE) -C ./source
